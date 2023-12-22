@@ -65,7 +65,8 @@
 .contents__profile__img{
     width: 100%;
     height: 100%;
-    border-radius: 600px
+    border-radius: 600px;
+    filter: grayscale(95%);
 }
 .button{
     padding-left: 24px; 
@@ -85,4 +86,36 @@
     font-weight: 500; 
     line-height: 27px; 
     text-decoration: none;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+.footer__icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.footer__icons__insta{
+    width: 37.50px;
+    height: 37.5px;
+}
+.footer__icons__linkedin{
+    width: 38px;
+    height: 38px;
+}
+.footer__icons__email{
+    width: 42px;
+    height: 32px;
+}
+.footer__text{
+    color: #828282;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
 }
