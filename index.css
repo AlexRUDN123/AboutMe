@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Nunito&family=Playfair+Display:wght@700&family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Nunito&family=Playfair+Display:wght@700&family=Raleway:wght@500&family=Roboto:wght@500&display=swap');
+
 .header{
     display: flex;
     flex-direction: row;
@@ -65,4 +66,23 @@
     width: 100%;
     height: 100%;
     border-radius: 600px
+}
+.button{
+    padding-left: 24px; 
+    padding-right: 24px; 
+    padding-top: 8px; 
+    padding-bottom: 8px; 
+    background: #FDC435; 
+    border-radius: 8px; 
+    display: inline-flex;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+}
+.button__text{
+    color: #25282B;
+    font-size: 18px; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500; 
+    line-height: 27px; 
+    text-decoration: none;
 }
